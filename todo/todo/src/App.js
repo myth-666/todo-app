@@ -23,7 +23,7 @@ export default function Todo() {
     // array.splice(indx,1)
   //  setArray(array.filter((_, i) => i !== indx));
   const temp = [...array]
-  temp.splice(indx, 1)
+  temp.splice(indx,1)
   setArray(temp)
   };
   const dispatch=useDispatch();
